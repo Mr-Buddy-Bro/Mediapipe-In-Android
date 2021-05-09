@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <!--frameLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/preview_display_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:layout_weight="1"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/no_camera_access_view"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text="@string/no_camera_access" />
+    </FrameLayout>
+    </LinearLayout>
+
+
+<!--Text view printing-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/x0_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="values will appear here"/>
+
+        <TextView
+            android:id="@+id/x1_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x2_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x3_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x4_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x5_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x6_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x7_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x8_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x9_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x10_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x11_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x12_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x13_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x14_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x15_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x16_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x17_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x18_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x19_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+        <TextView
+            android:id="@+id/x20_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/y0_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/z0_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="values will appear here"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
